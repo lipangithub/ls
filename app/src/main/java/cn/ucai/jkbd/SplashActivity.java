@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.view.KeyEvent;
 
 /**
  * Created by clawpo on 2017/6/27.
@@ -17,6 +18,9 @@ public class SplashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
         mCountDownTimer.start();
     }
+
+
+
 
     CountDownTimer mCountDownTimer  = new CountDownTimer(2000,1000) {
         @Override
